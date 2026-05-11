@@ -44,3 +44,10 @@ y_pred = X_test_holed.apply(fill_nan_with_interpolation, axis=0)
 # Métrique
 
 La métrique utilisée pour l’évaluation est une simple **MAE** (Erreur Absolue Moyenne) qui est la moyenne des erreurs absolues ramenée au nombre réel de valeurs manquantes.
+
+
+# Données
+[X_train.csv](https://challengedata.ens.fr/participants/challenges/160/download/x-train)
+[y_train.csv](https://challengedata.ens.fr/participants/challenges/160/download/y-train)
+[X_test.csv](https://challengedata.ens.fr/participants/challenges/160/download/x-test)
+[new_output_sample.csv](https://challengedata.ens.fr/participants/challenges/160/download/supplementary-files)
