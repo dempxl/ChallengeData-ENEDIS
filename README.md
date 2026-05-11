@@ -45,9 +45,33 @@ y_pred = X_test_holed.apply(fill_nan_with_interpolation, axis=0)
 
 La métrique utilisée pour l’évaluation est une simple **MAE** (Erreur Absolue Moyenne) qui est la moyenne des erreurs absolues ramenée au nombre réel de valeurs manquantes.
 
+---
 
 # Données
-[X_train.csv](https://challengedata.ens.fr/participants/challenges/160/download/x-train)
-[y_train.csv](https://challengedata.ens.fr/participants/challenges/160/download/y-train)
-[X_test.csv](https://challengedata.ens.fr/participants/challenges/160/download/x-test)
-[new_output_sample.csv](https://challengedata.ens.fr/participants/challenges/160/download/supplementary-files)
+| Fichier | Description |
+|-|-|
+| [X_train.csv](https://challengedata.ens.fr/participants/challenges/160/download/x-train) | variables explicatives pour l’entraînement |
+| [y_train.csv](https://challengedata.ens.fr/participants/challenges/160/download/y-train) | variable(s) cible(s) pour l’entraînement |
+| [X_test.csv](https://challengedata.ens.fr/participants/challenges/160/download/x-test) | variables explicatives pour le test |
+| [new_output_sample.csv](https://challengedata.ens.fr/participants/challenges/160/download/supplementary-files) | data-readers, baseline scripts, instructions, etc. |
+
+> Les fichiers, étant assez volumineux, ne peuvent pas passer sur GitHub (même avec LFS)
+
+---
+
+# Structure du projet
+
+```
+├── data/               # Jeu de données
+│   ├── new_output_sample.csv
+│   ├── X_test.csv
+│   ├── X_train.csv
+│   └── y_train.csv              
+├── notebook/
+│   └── ...
+├── .gitignore
+└── README.md
+
+```
+
+---
