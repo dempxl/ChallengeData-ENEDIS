@@ -1,0 +1,2 @@
+# On ignore les fichiers csv de data
+data/*.csv
