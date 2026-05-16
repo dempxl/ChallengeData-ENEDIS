@@ -62,16 +62,24 @@ La métrique utilisée pour l’évaluation est une simple **MAE** (Erreur Absol
 # Structure du projet
 
 ```
-├── data/               # Jeu de données
-│   ├── new_output_sample.csv
-│   ├── X_test.csv
-│   ├── X_train.csv
-│   └── y_train.csv              
-├── notebook/
-│   └── ...
-├── .gitignore
+.
+├── data
+│   ├── new_output_sample.csv
+│   ├── X_test.csv
+│   ├── X_train.csv
+│   ├── y_pred_hybrid.csv
+│   └── y_train.csv
+├── img
+│   ├── analyse_enedis.png
+│   ├── comparaison_methodes.png
+│   ├── comparaison_methodes_v2.png
+│   ├── mae_par_taille_trou.png
+│   └── visualisation_imputations.png
+├── LICENSE
+├── notebook
+│   ├── notebook.ipynb
+│   └── notebook_LOGAN.ipynb
 └── README.md
-
 ```
 
 ---

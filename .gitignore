@@ -1,2 +1,5 @@
 # On ignore les fichiers csv de data
-data/*.csv
+data/X_test.csv
+data/X_train.csv
+data/y_train.csv
+data/new_output_sample.csv
